@@ -17,3 +17,8 @@
 
 ## Running the Notebook
 * Replace `SOURCE_PATH = Path("/kaggle/input/CHANGE-ME")` with your data. Your images must be placed under a folder named `images`.
+
+## Future Work / Failure Cases
+- **Handle photometric variations arising from the camera ISP with [PPISP](https://research.nvidia.com/labs/sil/projects/ppisp/)**
+- **Render-then-refine sparse view reconstruction with geometry-aware video diffusion models a la [GeoQuery](https://github.com/Xiaoc7/GeoQuery)**
+- **Remove distractors, dynamic objects using [SpotLessSplats](https://spolesssplats.github.io/) or similar**
